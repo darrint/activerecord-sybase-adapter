@@ -16,4 +16,7 @@ Gem::Specification.new do |s|
 
   s.files        = Dir.glob("lib/**/*") + %w(README.markdown)
   s.require_path = 'lib'
+
+  s.add_dependency "tiny_tds", ">= 0.4.5"
+  s.add_dependency "arel-sybase-visitor", ">= 0.1.0"
 end
