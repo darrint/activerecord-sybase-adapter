@@ -1,6 +1,11 @@
 ActiveRecord Sybase Adapter
 ===========================
 
+This is a forked version of the original that uses TinyTDS instead
+of the native Sybase driver.
+
+  - darrint Tue Jul 19 21:37:00 EDT 2011
+
 Flawed though it is, we still depends on this for our app. Because
 stinky code makes app stink as well, this adapter has been cleaned
 up for Rails 3, by removing all the LIMIT and OFFSET hacks, that
